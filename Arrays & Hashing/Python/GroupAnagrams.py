@@ -21,6 +21,11 @@ class Solution:
         # Return the values of the dictionary as a list of lists (the grouped anagrams)
         return list(anagram_map.values())
 
+
+
+
+
+
 # Example usage:
 if __name__ == "__main__":
     strs = ["eat", "tea", "tan", "ate", "nat", "bat"]  # Example input list of strings
