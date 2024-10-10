@@ -20,6 +20,7 @@ class Solution:
         
         # Return the values of the dictionary as a list of lists (the grouped anagrams)
         return list(anagram_map.values())
+      
 
 
 
