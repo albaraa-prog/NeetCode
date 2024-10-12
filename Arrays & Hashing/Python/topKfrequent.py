@@ -8,7 +8,7 @@ class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         # Step 1: Count the frequency of each element in the nums list
         # 'Counter(nums)' will return a dictionary-like object where keys are elements,
-        # and values are their respective frequencies.
+        # and values are their respective frequencies
         mostf = Counter(nums)
         
         # Step 2: Find the k most common elements
